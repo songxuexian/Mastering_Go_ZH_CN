@@ -24,6 +24,9 @@
   - [01.3 为什么是Go](https://github.com/hantmac/Mastering_Go_ZH_CN/blob/master/eBook/chapter1/01.3.md)
   - [01.4 Go的优点](https://github.com/hantmac/Mastering_Go_ZH_CN/blob/master/eBook/chapter1/01.4.md)
     - [01.4.1 Go是完美的么](https://github.com/hantmac/Mastering_Go_ZH_CN/blob/master/eBook/chapter1/01.4.1.md)
+- [chapter 2 Go内部机制](https://github.com/hantmac/Mastering_Go_ZH_CN/tree/master/eBook/chapter2)
+  - [02.0 本章概述](https://github.com/hantmac/Mastering_Go_ZH_CN/blob/master/eBook/chapter2/02.0.md)
+  - [02.1 编译器](https://github.com/hantmac/Mastering_Go_ZH_CN/blob/master/eBook/chapter2/02.1.md)
 - [chapter 3 Go基本数据类型](https://github.com/hantmac/Mastering_Go_ZH_CN/tree/master/eBook/chapter3)
   - [03.3 Go切片](https://github.com/hantmac/Mastering_Go_ZH_CN/blob/master/eBook/chapter3/03.3.md)
     - [03.3.1 切片基本操作](https://github.com/hantmac/Mastering_Go_ZH_CN/blob/master/eBook/chapter3/03.3.1.md)
@@ -34,12 +37,17 @@
     - [03.3.5 多维切片](https://github.com/hantmac/Mastering_Go_ZH_CN/blob/master/eBook/chapter3/03.3.5.md)
     - [03.3.6 使用切片的代码示例](https://github.com/hantmac/Mastering_Go_ZH_CN/blob/master/eBook/chapter3/03.3.6.md)
     - [0.3.3.7 使用sort.Slice()排序](https://github.com/hantmac/Mastering_Go_ZH_CN/blob/master/eBook/chapter3/03.3.7.md)
+  - [03.4 Go 映射(map)](https://github.com/hantmac/Mastering_Go_ZH_CN/blob/master/eBook/chapter3/03.4.0.md)
+    - [03.4.1 Map值为nil的坑](https://github.com/hantmac/Mastering_Go_ZH_CN/blob/master/eBook/chapter3/03.4.1.md)
+    - [03.4.2 何时该使用Map?](https://github.com/hantmac/Mastering_Go_ZH_CN/blob/master/eBook/chapter3/03.4.2.md)
 - [chapter 9 并发-Goroutines,Channel和Pipeline](https://github.com/hantmac/Mastering_Go_ZH_CN/tree/master/eBook/chapter9/09.0.md)
 
   - [09.1 关于进程，线程和Go协程](https://github.com/hantmac/Mastering_Go_ZH_CN/tree/master/eBook/chapter9/09.1.md)
       - [09.1.1 Go调度器](https://github.com/hantmac/Mastering_Go_ZH_CN/tree/master/eBook/chapter9/09.1.1.md)
       - [09.1.2 并发与并行](https://github.com/hantmac/Mastering_Go_ZH_CN/tree/master/eBook/chapter9/09.1.2.md)
->>>>>>> 525e5d99dac4c0523e4e77062c2c4a5ed0502459
+  - [09.2 Goroutines](https://github.com/hantmac/Mastering_Go_ZH_CN/tree/master/eBook/chapter9/09.2.md)
+    - [09.2.1 创建一个Goroutine](https://github.com/hantmac/Mastering_Go_ZH_CN/tree/master/eBook/chapter9/09.2.1.md)
+    - [09.2.2 创建多个Goroutine](https://github.com/hantmac/Mastering_Go_ZH_CN/tree/master/eBook/chapter9/09.2.2.md)
 -------
 ### 支持本书
 
