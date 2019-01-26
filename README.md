@@ -27,6 +27,9 @@
 - [chapter 2 Go内部机制](https://github.com/hantmac/Mastering_Go_ZH_CN/tree/master/eBook/chapter2)
   - [02.0 本章概述](https://github.com/hantmac/Mastering_Go_ZH_CN/blob/master/eBook/chapter2/02.0.md)
   - [02.1 编译器](https://github.com/hantmac/Mastering_Go_ZH_CN/blob/master/eBook/chapter2/02.1.md)
+  - [02.4 C中调用Go函数](https://github.com/hantmac/Mastering_Go_ZH_CN/blob/master/eBook/chapter2/02.4.md)
+    - [02.4.1 Go Package](https://github.com/hantmac/Mastering_Go_ZH_CN/blob/master/eBook/chapter2/02.4.1.md)
+    - [02.4.2 C代码](https://github.com/hantmac/Mastering_Go_ZH_CN/blob/master/eBook/chapter2/02.4.2.md)
 - [chapter 3 Go基本数据类型](https://github.com/hantmac/Mastering_Go_ZH_CN/tree/master/eBook/chapter3)
   - [03.3 Go切片](https://github.com/hantmac/Mastering_Go_ZH_CN/blob/master/eBook/chapter3/03.3.md)
     - [03.3.1 切片基本操作](https://github.com/hantmac/Mastering_Go_ZH_CN/blob/master/eBook/chapter3/03.3.1.md)
@@ -58,6 +61,16 @@
     - [04.2.1 结构体指针](https://github.com/hantmac/Mastering_Go_ZH_CN/blob/master/eBook/chapter4/04.2.1.md)
     - [04.2.2 使用new关键字](https://github.com/hantmac/Mastering_Go_ZH_CN/blob/master/eBook/chapter4/04.2.2.md)
   - [04.3 元组](https://github.com/hantmac/Mastering_Go_ZH_CN/blob/master/eBook/chapter4/04.3.md)
+  - [04.4 正则表达式与模式匹配](https://github.com/hantmac/Mastering_Go_ZH_CN/blob/master/eBook/chapter4/04.4.md)
+    - [04.4.1 理论知识](https://github.com/hantmac/Mastering_Go_ZH_CN/blob/master/eBook/chapter4/04.4.1.md)
+    - [04.4.2 简单的正则表达式示例](https://github.com/hantmac/Mastering_Go_ZH_CN/blob/master/eBook/chapter4/04.4.2.md)
+    - [04.4.3 高级的正则表达式示例](https://github.com/hantmac/Mastering_Go_ZH_CN/blob/master/eBook/chapter4/04.4.3.md)
+    - [04.4.4 正则匹配IPv4地址](https://github.com/hantmac/Mastering_Go_ZH_CN/blob/master/eBook/chapter4/04.4.4.md)
+  - [04.5 字符串](https://github.com/hantmac/Mastering_Go_ZH_CN/blob/master/eBook/chapter4/04.5.md)
+    - [04.5.1 rune是什么？](https://github.com/hantmac/Mastering_Go_ZH_CN/blob/master/eBook/chapter4/04.5.1.md)
+    - [04.5.2 关于Unicode的包](https://github.com/hantmac/Mastering_Go_ZH_CN/blob/master/eBook/chapter4/04.5.2.md)
+    - [04.5.3 关于字符串处理的包](https://github.com/hantmac/Mastering_Go_ZH_CN/blob/master/eBook/chapter4/04.5.3.md)
+  - [04.6 switch语句](https://github.com/hantmac/Mastering_Go_ZH_CN/blob/master/eBook/chapter4/04.6.md)
 - [chapter5 数据结构](https://github.com/hantmac/Mastering_Go_ZH_CN/blob/master/eBook/chapter5/05.0.md)
   - [05.1 图和节点](https://github.com/hantmac/Mastering_Go_ZH_CN/blob/master/eBook/chapter5/05.1.md)
   - [05.2 算法复杂度](https://github.com/hantmac/Mastering_Go_ZH_CN/blob/master/eBook/chapter5/05.2.md)
@@ -85,12 +98,33 @@
   - [09.2 Goroutines](https://github.com/hantmac/Mastering_Go_ZH_CN/tree/master/eBook/chapter9/09.2.md)
     - [09.2.1 创建一个Goroutine](https://github.com/hantmac/Mastering_Go_ZH_CN/tree/master/eBook/chapter9/09.2.1.md)
     - [09.2.2 创建多个Goroutine](https://github.com/hantmac/Mastering_Go_ZH_CN/tree/master/eBook/chapter9/09.2.2.md)
+            - [09.2.1 创建一个Goroutine](https://github.com/hantmac/Mastering_Go_ZH_CN/tree/master/eBook/chapter9/09.2.1.md)
+                  - [09.2.2 创建多个Goroutine](https://github.com/hantmac/Mastering_Go_ZH_CN/tree/master/eBook/chapter9/09.2.2.md)
+
+    - [09.3 优雅地结束goroutines](https://github.com/hantmac/Mastering_Go_ZH_CN/tree/master/eBook/chapter9/09.3.md)
+        - [09.3.1 当Add()和Done()的数量不匹配时会发生什么？](https://github.com/hantmac/Mastering_Go_ZH_CN/tree/master/eBook/chapter9/09.3.1.md)
+    - [09.4 Channel(通道)](https://github.com/hantmac/Mastering_Go_ZH_CN/tree/master/eBook/chapter9/09.4.md)
+
+- [chapter 12 Go网络编程基础](https://github.com/hantmac/Mastering_Go_ZH_CN/tree/master/eBook/chapter12/12.0.md)
+  - [12.1 关于net/http,net和http.RoundTripper](https://github.com/hantmac/Mastering_Go_ZH_CN/tree/master/eBook/chapter12/12.1.md)
+    - [12.1.1 http.Response类型](https://github.com/hantmac/Mastering_Go_ZH_CN/tree/master/eBook/chapter12/12.1.1.md)
+    - [12.1.2 http.Request类型](https://github.com/hantmac/Mastering_Go_ZH_CN/tree/master/eBook/chapter12/12.1.2.md)
+    - [12.1.3 http.Transport类型](https://github.com/hantmac/Mastering_Go_ZH_CN/tree/master/eBook/chapter12/12.1.3.md)
+
+- [chapter 13 网络编程 - 构建服务器与客户端](https://github.com/hantmac/Mastering_Go_ZH_CN/tree/master/eBook/chapter13/13.0.md)
+  - [13.1 Go 标准库-net](https://github.com/hantmac/Mastering_Go_ZH_CN/tree/master/eBook/chapter13/13.1.md)
+  - [13.2 TCP 客户端](https://github.com/hantmac/Mastering_Go_ZH_CN/tree/master/eBook/chapter13/13.2.md)
+    - [13.2.1 另一个版本的 TCP 客户端](https://github.com/hantmac/Mastering_Go_ZH_CN/tree/master/eBook/chapter13/13.2.1.md)
+  - [13.3 TCP 服务器](https://github.com/hantmac/Mastering_Go_ZH_CN/tree/master/eBook/chapter13/13.3.md)
+    - [13.3.1 另一个版本的 TCP 服务器](https://github.com/hantmac/Mastering_Go_ZH_CN/tree/master/eBook/chapter13/13.3.1.md)  
+  - [13.4 UDP 客户端](https://github.com/hantmac/Mastering_Go_ZH_CN/tree/master/eBook/chapter13/13.4.md)
 
 -------
 ### GitBook
 [Mastering_Go_ZH_CN](https://wskdsgcf.gitbook.io/mastering-go-zh-cn)
 
 根据翻译进度实时更新。
+=======
 
 -------
 ### 支持本书
@@ -128,6 +162,7 @@
   - [glbrtchen](https://github.com/glbrtchen)
   - [wskdsgcf](https://github.com/wskdsgcf)
   - [mark1995](https://github.com/mark1995)
+  - [themoonbear](https://github.com/themoonbear)
 
 ---------
 ### 授权许可
